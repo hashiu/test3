@@ -5,7 +5,7 @@
 	"author": "",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/StalkerApps/2048.git"
+		"url": "https://github.com/hashiu/test3/2048.git"
 	},
 	"dependencies": {
 		"stb-referrer": "https://github.com/stbsdk/referrer.git",
