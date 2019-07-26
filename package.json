@@ -1,0 +1,60 @@
+{
+	"name": "2048",
+	"version": "1.0.0",
+	"description": "2048 game",
+	"author": "",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/StalkerApps/2048.git"
+	},
+	"dependencies": {
+		"stb-referrer": "https://github.com/stbsdk/referrer.git",
+		"cjs-async": "^1.3.0",
+		"code-proxy": "^1.2.21",
+		"del": "^2.0.2",
+		"gettext-parser": "^1.1.1",
+		"gremlins.js": "^0.1.0",
+		"gulp": "^3.9.0",
+		"gulp-eslint": "^2.0.0",
+		"gulp-jade": "^1.1.0",
+		"gulp-less": "^3.0.3",
+		"gulp-livereload": "^3.8.1",
+		"gulp-minify-css": "^1.1.6",
+		"gulp-plumber": "^1.0.1",
+		"gulp-rename": "^1.2.0",
+		"gulp-repl": "^0.4.0",
+		"gulp-sourcemaps": "^1.6.0",
+		"gulp-util": "^3.0.5",
+		"gulp-watch": "^4.3.5",
+		"gulp-zip": "^3.0.2",
+		"ip": "^1.0.0",
+		"node-static": "^0.7.7",
+		"open": "^0.0.5",
+		"ssh2": "^0.4.11",
+		"tty-colors": "^0.0.6",
+		"webpack-stream": "^3.1.0",
+		"weinre": "^2.0.0-pre-I0Z7U9OV",
+		"ws": "^1.0.1"
+	},
+	"license": "GPL-3.0",
+	"config": {
+		"type": "app",
+		"category": "games",
+		"backgroundColor": "#97897c",
+		"name": "2048",
+		"description": "2048 is one of the world’s most popular puzzles. The rules are simple: you need to shuffle all the bars to one side of the game field. Your goal is to reach 2048.",
+		"legacy": true,
+		"icons": {
+			"paths": {
+				"480": "img/480/icons/",
+				"576": "img/576/icons/",
+				"720": "img/720/icons/",
+				"1080": "img/1080/icons/"
+			},
+			"states": {
+				"normal": "2015.png",
+				"active": "2015.focus.png"
+			}
+		}
+	}
+}
